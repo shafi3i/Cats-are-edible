@@ -1,0 +1,62 @@
+#MainStuff {
+    text-align: center;
+    color: chocolate;
+    font-size: 40px;
+    margin-bottom: 35px;
+
+}
+
+p {
+    color: rgb(255, 246, 123);
+    opacity: 0.9;
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+}
+
+html {
+    background-color: rgb(175, 175, 175);
+}
+
+p:nth-child(n+7):nth-child(-n+10) {
+    color: black;
+}
+
+div {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.href {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Align items in a column to center them vertically */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 40px;
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: violet;
+}
+
+a:active {
+    background-color: cadetblue;
+}

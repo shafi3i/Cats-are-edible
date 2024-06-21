@@ -1,0 +1,83 @@
+#test {
+    background-color: black;
+    height: 300px;
+    width: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: aqua;
+    position: relative;
+    top: 68px;
+    left: 65px;
+}
+
+.box2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: rgb(115, 255, 0);
+}
+
+.box4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: rgb(204, 0, 255);
+}
+
+.box5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: rgb(68, 0, 100);
+}
+
+
+#test p:hover {
+    background-color: blueviolet;
+}
+
+#RealStuff {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: blueviolet;
+    width: 900px;
+    height: 700px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.text {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: aqua;
+    border: black solid;
+    overflow-y: auto;
+}
+
+.text2 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#RealStuff2 {
+    position: absolute;
+}

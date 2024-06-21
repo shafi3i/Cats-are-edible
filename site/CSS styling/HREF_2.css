@@ -1,0 +1,80 @@
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 40px;
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: violet;
+}
+
+a:active {
+    background-color: cadetblue;
+}
+
+.gato {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Align items in a column to center them vertically */
+}
+
+#Main {
+    text-align: center;
+    color: rgb(75, 200, 204);
+    font-size: 30px;
+    opacity: 0.8;
+    font-style: italic;
+    font-weight: bold;
+} 
+
+html {
+    background-color: grey;
+}
+
+header {
+    text-align: center;
+    font-size: 27px;
+}
+
+header nav {
+    color: aqua;
+}
+
+section {
+    color: brown;
+    text-align: center;
+    font-size: 27px;
+}
+
+section article {
+    color: chartreuse;
+}
+
+article section {
+    color: crimson;
+}
+
+article {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 27px;
+}
+
+article h1 {
+    color: blueviolet;
+    font-size: 27px;
+}
+
+footer {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    
+}
